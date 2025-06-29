@@ -7,13 +7,13 @@ const Hero = () => {
       <div className="hero-map" />
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        {/* <Image
+        <Image
           src="/camp.svg"
           alt="camp"
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
-        /> */}
+        />
         <h1 className="bold-52 lg:bold-88">Empower Your Inner Journey</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
           We’re here to walk with you through every step of your self-discovery
