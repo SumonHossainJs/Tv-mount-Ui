@@ -3,21 +3,20 @@ import React from "react";
 
 const Guide = () => {
   return (
-    <section className="flexCenter flex-col">
+    <section id="services" className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image src="/camp.svg" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
-          We are here for you
+          Expert TV Mounting
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
-          <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">
-            Guiding You Back to Yourself
+          <h2 className="bold-40 lg:bold-50 xl:max-w-[390px]">
+            Secure & Professional TV Installation
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Through supportive coaching and intentional inner work, we help you
-            reconnect with your truth, confidence, and clarity. Whether you're
-            navigating transitions or seeking alignment, you're not alone—we
-            walk this journey with you.
+            We provide expert TV mounting services to enhance your viewing
+            experience. From precise placement to cable concealment, our
+            technicians ensure a clean, safe, and stylish setup tailored to your
+            space and preferences.
           </p>
         </div>
       </div>
@@ -31,7 +30,7 @@ const Guide = () => {
           className="w-full object-cover object-center 2xl:rounded-5xl"
         />
 
-        <div className="absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left-[5%] lg:top-20">
+        <div className="absolute flex bg-white/10 backdrop-blur-lg py-8 pl-5 pr-7 gap-3 rounded-3xl border border-white/20 shadow-md md:left-[5%] lg:top-20">
           <Image
             src="/meter.svg"
             alt="meter"
@@ -42,16 +41,16 @@ const Guide = () => {
           <div className="flexBetween flex-col">
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
-                <p className="regular-16 text-gray-20">Session Type</p>
+                <p className="regular-16 text-gray-20">Service Duration</p>
                 <p className="bold-16 text-green-50">60 min</p>
               </div>
-              <p className="bold-20 mt-2">Clarity & Confidence Coaching</p>
+              <p className="bold-20 mt-2">Full TV Mount Installation</p>
             </div>
 
             <div className="flex w-full flex-col">
-              <p className="regular-16 text-gray-20">Your Journey Begins</p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">
-                Inner Awareness & Self-Love
+              <p className="regular-16 text-gray-20">What We Provide</p>
+              <h4 className="bold-20  mt-2 whitespace-nowrap">
+                Mounting, Cable Management & Setup
               </h4>
             </div>
           </div>

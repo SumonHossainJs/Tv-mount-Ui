@@ -7,18 +7,20 @@ const Hero = () => {
       <div className="hero-map" />
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        <Image
+        {/* <Image
           src="/camp.svg"
           alt="camp"
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
-        />
-        <h1 className="bold-52 lg:bold-88">Empower Your Inner Journey</h1>
+        /> */}
+        <h1 className="bold-40 lg:bold-52">
+          Professional TV Mounting Made Easy
+        </h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We’re here to walk with you through every step of your self-discovery
-          and healing. Let us support your growth with intentional coaching that
-          brings clarity, balance, and empowerment.
+          Get your TV securely mounted by experts. We ensure perfect placement,
+          hidden cables, and a sleek setup that transforms your space — all with
+          fast, reliable service.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -45,7 +47,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="View Courses" variant="btn_green" />
+          <Button type="button" title="Let's Start" variant="btn_green" />
           <Button
             type="button"
             title="How we work?"
@@ -56,23 +58,36 @@ const Hero = () => {
       </div>
 
       <div className="relative flex flex-1 items-start">
-        <div className="relative z-20 flex w-[268px] flex-col gap-6 rounded-3xl bg-green-90 px-6 py-6">
+        <div className="relative z-20 flex w-[268px] flex-col gap-6 rounded-3xl bg-white/10 backdrop-blur-md border border-white/20 px-6 py-6 shadow-lg">
           <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-14 text-gray-20">Focus Area</p>
+              <p className="regular-14 text-gray-20">Service Category</p>
               <Image src="/close.svg" alt="close" width={20} height={20} />
             </div>
-            <p className="bold-16 text-white">Emotional Clarity</p>
+            <p className="bold-16 ">TV Mounting Services</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-14 block text-gray-20">Session Length</p>
-              <p className="bold-16 text-white">60 mins</p>
+              <p className="regular-14 block text-gray-20">Mount Types</p>
+              <p className="bold-16 ">Fixed, Tilt, Full Motion</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-14 block text-gray-20">Depth Level</p>
-              <p className="bold-16 text-white">Guided & Reflective</p>
+              <p className="regular-14 block text-gray-20">
+                TV Sizes Supported
+              </p>
+              <p className="bold-16 ">32" – 85"+</p>
+            </div>
+          </div>
+
+          <div className="flexBetween">
+            <div className="flex flex-col">
+              <p className="regular-14 block text-gray-20">Wall Types</p>
+              <p className="bold-16 ">Drywall, Concrete, Brick</p>
+            </div>
+            <div className="flex flex-col">
+              <p className="regular-14 block text-gray-20">Cable Concealment</p>
+              <p className="bold-16 ">Optional Add-on</p>
             </div>
           </div>
         </div>

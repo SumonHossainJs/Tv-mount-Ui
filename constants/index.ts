@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'About', label: 'About' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '#about', key: 'About', label: 'About' },
+  { href: '#services', key: 'services', label: 'Services' },
+  { href: '#pricing', key: 'pricing ', label: 'Pricing ' },
+  { href: '#contact', key: 'contact_us', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
@@ -18,58 +18,73 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Accessible Coaching Anytime',
-    icon: '/map.svg',
+    title: 'Expert TV Mounting',
+    icon: 'fas fa-tools', // Solid Tools icon
     variant: 'green',
     description:
-      'Our coaching platform is accessible anytime, anywhere — so you can continue your inner journey even when offline or on the move.',
+      'With 5+ years of experience and 10,000+ installs, we deliver precise, professional wall mounting — every time.',
   },
   {
-    title: 'Schedule with Ease',
-    icon: '/calendar.svg',
-    variant: 'green',
-    description:
-      'Easily plan your coaching sessions or package deals through our integrated booking system. No stress, just clarity and flow.',
-  },
-  {
-    title: 'Guided by Insightful Tools',
-    icon: '/tech.svg',
-    variant: 'green',
-    description:
-      'We use modern, intuitive technology to support your growth — from guided prompts to elegant, calming user experiences.',
-  },
-  {
-    title: 'New Programs Each Month',
-    icon: '/location.svg',
+    title: 'Same-Day Service',
+    icon: 'fas fa-calendar-day', // Solid Calendar Day icon
     variant: 'orange',
     description:
-      'We regularly introduce fresh coaching content and offerings inspired by women around the world to keep your growth dynamic and relevant.',
+      'Book today, mount today. We offer fast, same-day installation to fit your schedule and avoid delays.',
+  },
+  {
+    title: 'Transparent Pricing',
+    icon: 'fas fa-badge-dollar', // Solid Dollar Badge icon (Pro)
+    variant: 'green',
+    description:
+      'TV mounting from just $69, tilting mounts & fireplace installs from $49 — no hidden fees, just honest rates.',
+  },
+  {
+    title: 'Guaranteed & Insured',
+    icon: 'fas fa-shield-check', // Solid Shield Check icon (Pro)
+    variant: 'orange',
+    description:
+      'We back every job with a 1-Year Guarantee and full insurance — for your complete peace of mind.',
   },
 ];
+
+
 
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Explore',
+    title: 'Services',
+    links: [
+      'Wall Mount Installation',
+      'Full Motion Mounts',
+      'TV & Soundbar Setup',
+      'Cable Concealment',
+      'Commercial Installation',
+      'TV Dismounting',
+    ],
+  },
+  {
+    title: 'Company',
     links: [
       'About Us',
-      'Our Philosophy',
-      'Coaching Services',
-      'Testimonials',
+      'Service Areas',
+      'Pricing & Packages',
+      'FAQs',
       'Privacy Policy',
       'Contact',
     ],
   },
   {
-    title: 'Community & Support',
+    title: 'Support',
     links: [
-      'Client Stories',
-      'Wellness Resources',
-      'Events & Workshops',
+      'Customer Reviews',
+      'Installation Guide',
+      'Warranty Info',
+      'Book a Technician',
     ],
   },
 ];
+
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Connect With Us',
