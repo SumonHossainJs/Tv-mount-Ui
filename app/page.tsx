@@ -7,6 +7,7 @@ import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
 import PricingSection from "@/components/Pricing";
+import Questionnaire from "@/components/Questionnaire";
 import StatsSection from "@/components/Stat";
 import TestimonialsSection from "@/components/Testimonials";
 import VideoG from "@/components/VideoGellary";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <Questionnaire/>
       <StatsSection/>
       <Guide />
       <Features />
