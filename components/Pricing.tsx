@@ -68,10 +68,7 @@ const PricingSection: React.FC = () => {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
             Choose a plan that fits your wall and your vision.
           </p>
-          <div className="flex mx-auto border-2 border-green-500 rounded overflow-hidden mt-6">
-            <button className="py-1 px-4 bg-green-500 text-white focus:outline-none">Monthly</button>
-            <button className="py-1 px-4 focus:outline-none">Annually</button>
-          </div>
+         
         </div>
 
         <div className="flex flex-wrap -m-4">

@@ -17,7 +17,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Questionnaire/>
       <StatsSection/>
       <Guide />
       <Features />
